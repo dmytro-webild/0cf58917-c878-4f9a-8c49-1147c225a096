@@ -29,7 +29,7 @@ export default function LandingPage() {
           navItems={[
             { name: "Services", id: "services" },
             { name: "About", id: "why-archisites" },
-            { name: "Contact", id: "contact" }
+            { name: "Contact", id: "/contact" }
           ]}
           button={{ text: "Schedule a Call", href: "#contact" }}
           animateOnLoad={true}
@@ -43,7 +43,7 @@ export default function LandingPage() {
           background={{ variant: "plain" }}
           buttons={[
             { text: "Schedule a Call", href: "#contact" },
-            { text: "Contact Us", href: "#contact" }
+            { text: "Contact Us", href: "/contact" }
           ]}
           buttonAnimation="slide-up"
           layoutOrder="default"
@@ -97,7 +97,7 @@ export default function LandingPage() {
           title="Ready for a Better Website?"
           description="Let's build something exceptional together. Our team is ready to create a website that drives results."
           buttons={[
-            { text: "Schedule a Call", href: "#contact" }
+            { text: "Schedule a Call", href: "/contact" }
           ]}
           buttonAnimation="slide-up"
           background={{ variant: "plain" }}
@@ -111,7 +111,7 @@ export default function LandingPage() {
           title="Tell us about your project and we'll get back to you shortly."
           description="Fill out the form below to schedule a consultation with our team."
           buttons={[
-            { text: "Send Message", href: "#" }
+            { text: "Send Message", href: "/contact" }
           ]}
           buttonAnimation="slide-up"
           background={{ variant: "plain" }}
@@ -125,9 +125,9 @@ export default function LandingPage() {
           columns={[
             {
               title: "Navigation",              items: [
-                { label: "Home", href: "#" },
+                { label: "Home", href: "/" },
                 { label: "Services", href: "#services" },
-                { label: "Contact", href: "#contact" }
+                { label: "Contact", href: "/contact" }
               ]
             },
             {
