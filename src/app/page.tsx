@@ -33,10 +33,6 @@ export default function LandingPage() {
           ]}
           button={{ text: "Schedule a Call", href: "#contact" }}
           animateOnLoad={true}
-          containerClassName="px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12"
-          navClassName="gap-4 sm:gap-6 md:gap-8"
-          navItemClassName="text-xs sm:text-sm md:text-base lg:text-lg"
-          buttonClassName="px-3 sm:px-4 md:px-6 py-2 sm:py-2.5 md:py-3 text-xs sm:text-sm md:text-base"
         />
       </div>
 
@@ -84,10 +80,6 @@ export default function LandingPage() {
           textboxLayout="default"
           useInvertedBackground={false}
           containerClassName="py-12 sm:py-16 md:py-20 lg:py-24"
-          titleClassName="text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
-          descriptionClassName="text-sm sm:text-base md:text-lg mt-2 sm:mt-3 md:mt-4"
-          cardClassName="p-4 sm:p-6 md:p-8 flex flex-col gap-3 sm:gap-4 min-h-64 sm:min-h-72 md:min-h-80"
-          iconClassName="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12"
           cardTitleClassName="text-base sm:text-lg md:text-xl"
           cardDescriptionClassName="text-xs sm:text-sm md:text-base"
           gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8"
