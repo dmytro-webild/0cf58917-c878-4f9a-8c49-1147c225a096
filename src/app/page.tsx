@@ -36,7 +36,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="hero" data-section="hero" className="px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12">
+      <div id="hero" data-section="hero">
         <HeroLogoBillboardSplit
           logoText="Archisites"
           description="Modern Websites Built for Growth. Archisites designs fast, modern websites that help businesses build credibility and attract more customers online."
@@ -49,16 +49,10 @@ export default function LandingPage() {
           layoutOrder="default"
           mediaAnimation="opacity"
           frameStyle="card"
-          containerClassName="py-12 sm:py-16 md:py-20 lg:py-24"
-          logoClassName="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl"
-          descriptionClassName="text-sm sm:text-base md:text-lg lg:text-xl"
-          buttonContainerClassName="gap-3 sm:gap-4 md:gap-6 flex-col sm:flex-row"
-          buttonClassName="px-4 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-4 text-sm sm:text-base md:text-lg w-full sm:w-auto"
-          mediaWrapperClassName="mt-12 sm:mt-16 md:mt-20 lg:mt-24 max-w-2xl sm:max-w-3xl md:max-w-4xl lg:max-w-5xl mx-auto"
         />
       </div>
 
-      <div id="services" data-section="services" className="px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12">
+      <div id="services" data-section="services">
         <FeatureHoverPattern
           title="What We Do"
           description="Our core services designed to elevate your online presence with modern, performance-driven solutions."
@@ -79,40 +73,25 @@ export default function LandingPage() {
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
-          containerClassName="py-12 sm:py-16 md:py-20 lg:py-24"
-          cardTitleClassName="text-base sm:text-lg md:text-xl"
-          cardDescriptionClassName="text-xs sm:text-sm md:text-base"
-          gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8"
         />
       </div>
 
-      <div id="why-archisites" data-section="why-archisites" className="px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12">
+      <div id="why-archisites" data-section="why-archisites">
         <MetricSplitMediaAbout
           tag="Our Philosophy"
           title="Built with Purpose"
           description="At Archisites, websites are built like architecture — structured, intentional, and designed to perform. Every project focuses on speed, clarity, and modern design that helps businesses grow online."
           metrics={[
-            { value: "Modern Design", title: "Timeless Aesthetics" },
-            { value: "Performance Focused", title: "Speed & Efficiency" }
+            { value: "Modern ", title: "Timeless Aesthetics" },
+            { value: "Fast ", title: "Speed & Efficiency" }
           ]}
           useInvertedBackground={false}
           mediaAnimation="opacity"
           metricsAnimation="opacity"
-          containerClassName="py-12 sm:py-16 md:py-20 lg:py-24"
-          gridClassName="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 md:gap-16"
-          leftColumnClassName="flex flex-col justify-center gap-6 sm:gap-8"
-          rightColumnClassName="flex items-center justify-center mt-8 lg:mt-0"
-          titleClassName="text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
-          descriptionClassName="text-sm sm:text-base md:text-lg mt-3 sm:mt-4 md:mt-6"
-          metricsContainerClassName="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8 mt-8 sm:mt-10 md:mt-12"
-          metricCardClassName="p-4 sm:p-6 md:p-8 rounded-lg sm:rounded-xl"
-          metricValueClassName="text-2xl sm:text-3xl md:text-4xl font-bold"
-          metricTitleClassName="text-sm sm:text-base md:text-lg mt-2 sm:mt-3"
-          mediaWrapperClassName="w-full h-auto rounded-lg sm:rounded-xl overflow-hidden"
         />
       </div>
 
-      <div id="cta" data-section="cta" className="px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12">
+      <div id="cta" data-section="cta">
         <ContactCTA
           tag="Ready to Grow"
           title="Ready for a Better Website?"
@@ -123,16 +102,10 @@ export default function LandingPage() {
           buttonAnimation="slide-up"
           background={{ variant: "plain" }}
           useInvertedBackground={false}
-          containerClassName="py-12 sm:py-16 md:py-20 lg:py-24"
-          contentClassName="p-6 sm:p-8 md:p-12 lg:p-16 rounded-lg sm:rounded-xl md:rounded-2xl"
-          titleClassName="text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
-          descriptionClassName="text-sm sm:text-base md:text-lg mt-3 sm:mt-4 md:mt-6"
-          buttonContainerClassName="mt-6 sm:mt-8 md:mt-10 flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-6"
-          buttonClassName="px-4 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-4 text-sm sm:text-base md:text-lg w-full sm:w-auto"
         />
       </div>
 
-      <div id="contact" data-section="contact" className="px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12">
+      <div id="contact" data-section="contact">
         <ContactCTA
           tag="Get in Touch"
           title="Tell us about your project and we'll get back to you shortly."
@@ -143,16 +116,10 @@ export default function LandingPage() {
           buttonAnimation="slide-up"
           background={{ variant: "plain" }}
           useInvertedBackground={true}
-          containerClassName="py-12 sm:py-16 md:py-20 lg:py-24"
-          contentClassName="p-6 sm:p-8 md:p-12 lg:p-16 rounded-lg sm:rounded-xl md:rounded-2xl"
-          titleClassName="text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
-          descriptionClassName="text-sm sm:text-base md:text-lg mt-3 sm:mt-4 md:mt-6"
-          buttonContainerClassName="mt-6 sm:mt-8 md:mt-10 flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-6"
-          buttonClassName="px-4 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-4 text-sm sm:text-base md:text-lg w-full sm:w-auto"
         />
       </div>
 
-      <div id="footer" data-section="footer" className="px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12">
+      <div id="footer" data-section="footer">
         <FooterBaseCard
           logoText="Archisites"
           columns={[
@@ -172,13 +139,6 @@ export default function LandingPage() {
             }
           ]}
           copyrightText="© 2025 Archisites. All rights reserved."
-          containerClassName="py-12 sm:py-16 md:py-20 lg:py-24"
-          cardClassName="p-6 sm:p-8 md:p-12 rounded-lg sm:rounded-xl"
-          columnsClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 md:gap-10 mt-8 sm:mt-10 md:mt-12"
-          columnTitleClassName="text-base sm:text-lg md:text-xl font-semibold mb-4 sm:mb-5 md:mb-6"
-          columnItemClassName="text-xs sm:text-sm md:text-base mb-2 sm:mb-3"
-          logoTextClassName="text-lg sm:text-xl md:text-2xl font-bold mb-6 sm:mb-8 md:mb-10"
-          copyrightTextClassName="text-xs sm:text-sm mt-6 sm:mt-8 md:mt-10 pt-6 sm:pt-8 md:pt-10 border-t"
         />
       </div>
     </ThemeProvider>
