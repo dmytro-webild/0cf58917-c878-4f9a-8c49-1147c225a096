@@ -87,6 +87,7 @@ export default function LandingPage() {
           ]}
           useInvertedBackground={false}
           mediaAnimation="opacity"
+          metricsAnimation="opacity"
         />
       </div>
 
