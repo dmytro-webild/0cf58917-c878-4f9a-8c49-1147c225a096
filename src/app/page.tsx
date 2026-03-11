@@ -82,8 +82,8 @@ export default function LandingPage() {
           title="Built with Purpose"
           description="At Archisites, websites are built like architecture — structured, intentional, and designed to perform. Every project focuses on speed, clarity, and modern design that helps businesses grow online."
           metrics={[
-            { value: "Modern Design", title: "Timeless Aesthetics" },
-            { value: "Performance Focused", title: "Speed & Efficiency" }
+            { value: "Modern ", title: "Timeless Aesthetics" },
+            { value: "Fast ", title: "Speed & Efficiency" }
           ]}
           useInvertedBackground={false}
           mediaAnimation="opacity"
