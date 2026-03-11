@@ -76,6 +76,10 @@ export default function LandingPage() {
         />
       </div>
 
+      <div id="divider" data-section="divider" className="flex items-center justify-center py-12 md:py-16">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 2'%3E%3Cline x1='0' y1='1' x2='1200' y2='1' stroke='%23c5c5c5' stroke-width='1' opacity='0.3'/%3E%3C/svg%3E" alt="" className="w-full h-auto" />
+      </div>
+
       <div id="why-archisites" data-section="why-archisites">
         <MetricSplitMediaAbout
           tag="Our Philosophy"
