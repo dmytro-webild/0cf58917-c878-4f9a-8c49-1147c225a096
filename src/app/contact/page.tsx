@@ -43,6 +43,7 @@ export default function ContactPage() {
           buttonText="Send Message"
           termsText="We'll respond to your email within 24 hours."
           centered={true}
+          useInvertedBackground={false}
         />
       </div>
 
