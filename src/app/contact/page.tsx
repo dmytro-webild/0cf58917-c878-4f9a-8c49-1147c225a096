@@ -2,8 +2,9 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import ContactText from '@/components/sections/contact/ContactText';
+import ContactForm from '@/components/form/ContactForm';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
+import { Mail } from 'lucide-react';
 
 export default function ContactPage() {
   return (
@@ -32,16 +33,16 @@ export default function ContactPage() {
         />
       </div>
 
-      <div id="contact" data-section="contact">
-        <ContactText
-          text="Ready to start your next project? Let's create something amazing together."
-          animationType="entrance-slide"
-          buttons={[
-            { text: "Get in Touch", href: "mailto:contact@archisites.com" },
-            { text: "View Portfolio", href: "/" }
-          ]}
-          background={{ variant: "plain" }}
-          useInvertedBackground={false}
+      <div id="contact-form" data-section="contact-form" className="min-h-screen flex items-center justify-center py-20 px-4">
+        <ContactForm
+          title="Get in Touch"
+          description="Send us a message and we'll get back to you as soon as possible."
+          tag="Contact Us"
+          tagIcon={Mail}
+          inputPlaceholder="your@email.com"
+          buttonText="Send Message"
+          termsText="We'll respond to your email within 24 hours."
+          centered={true}
         />
       </div>
 
